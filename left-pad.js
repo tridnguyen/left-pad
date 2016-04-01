@@ -1,4 +1,4 @@
-if (typeof String.prototype.leftPad !== 'funnction') {
+if (typeof String.prototype.leftPad !== 'function') {
 	String.prototype.leftPad = function (len, padString) {
     var delta;
     len = parseInt(len, 10);
