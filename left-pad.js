@@ -1,5 +1,5 @@
 if (typeof String.prototype.leftPad !== 'function') {
-	String.prototype.leftPad = function (len, padString) {
+  String.prototype.leftPad = function (len, padString) {
     var delta;
     len = parseInt(len, 10);
     delta = len - this.length;
