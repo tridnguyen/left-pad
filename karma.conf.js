@@ -1,7 +1,7 @@
 // Karma configuration
-// Generated on Sat Mar 26 2016 09:31:31 GMT-0700 (PDT)
+// Generated on Thu Jun 20 2019 22:15:34 GMT-0700 (Pacific Daylight Time)
 
-module.exports = function (config) {
+module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -15,18 +15,20 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
-      '../left-pad.js',
-      './left-pad_spec.js'
+      'left-pad.js',
+      './spec/left-pad_spec.js'
     ],
 
 
-    // list of files to exclude
-    exclude: [],
+    // list of files / patterns to exclude
+    exclude: [
+    ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {},
+    preprocessors: {
+    },
 
 
     // test results reporter to use
@@ -54,7 +56,7 @@ module.exports = function (config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['ChromeHeadless'],
 
 
     // Continuous Integration mode
@@ -65,4 +67,4 @@ module.exports = function (config) {
     // how many browser should be started simultaneous
     concurrency: Infinity
   })
-};
+}

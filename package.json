@@ -1,0 +1,22 @@
+{
+  "name": "left-pad",
+  "version": "1.0.0",
+  "description": "String Prototype to left pad a string",
+  "main": "left-pad.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start spec/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tridnguyen/left-pad.git"
+  },
+  "keywords": [
+    "leftPad"
+  ],
+  "author": "Tri Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tridnguyen/left-pad/issues"
+  },
+  "homepage": "https://github.com/tridnguyen/left-pad#readme"
+}

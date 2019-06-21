@@ -1,13 +1,13 @@
 'use strict';
 describe('leftPad', function () {
   describe('when string to pad is same length as length to pad', function () {
-    it('left pads the string with 0', function () {
+    it('returns the original string', function () {
       expect('donothing'.leftPad(9, 0)).toEqual('donothing');
     });
   });
 
   describe('when string to pad’s length is greater than length to pad', function () {
-    it('left pads the string with 0', function () {
+    it('returns the original string', function () {
       expect('already long enough string'.leftPad(9, 0)).toEqual('already long enough string');
     });
   });
